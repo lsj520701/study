@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".aidltest.AidlAct">
+
+    <TextView
+        android:text="绑定服务"
+        android:gravity="center"
+        android:id="@+id/onBind"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+
+
+    <TextView
+        android:text="车展看车。。"
+        android:id="@+id/tvLook"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <TextView
+    android:text="决定买车咯。。"
+    android:id="@+id/tvBuy"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"/>
+    <TextView
+        android:text="跳转到其他Activity"
+        android:id="@+id/onJump"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@+id/tvShow"
+        android:minHeight="300dp"
+        android:gravity="left|top"
+
+        android:hint="显示结果"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

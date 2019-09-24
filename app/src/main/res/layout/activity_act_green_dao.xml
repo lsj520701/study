@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".gdao.ActGreenDao">
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:text="申请权限"
+        android:id="@+id/tvPermission"
+        android:layout_height="48dp"/>
+
+    <EditText
+
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+
+    <View
+        android:background="#eeeeee"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <TextView
+        android:text="创建数据库"
+        android:id="@+id/tvCreat"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+
+    <TextView
+        android:text="插入数据"
+        android:id="@+id/tvAdd"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+    <TextView
+        android:text="删除数据"
+        android:id="@+id/tvRemove"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+    <TextView
+        android:text="查询数据"
+        android:id="@+id/tvQuery"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+
+</LinearLayout>

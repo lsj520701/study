@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".constainlayouts.ConstainAct">
+
+
+
+    <ImageView
+        android:id="@+id/ivIcon"
+
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="标题"
+        android:textSize="18sp"
+        android:id="@+id/tvTitle"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintLeft_toRightOf="@+id/ivIcon"
+        app:layout_constraintTop_toTopOf="@+id/ivIcon"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:text="内容..."
+        android:textSize="18sp"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintLeft_toLeftOf="@+id/tvTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/tvDesc"
+        app:layout_constraintLeft_toLeftOf="@+id/tvTitle"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvInfo"
+            android:text="这是一个神奇收到了科勒卡戴珊离开的历史看了看山东矿机看电视剧可接受的..."
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintLeft_toLeftOf="@+id/tvTitle"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/tvInfo2"
+            android:text="这是一个神奇收到了科勒卡戴珊离开的历史看了看山东矿机看电视剧可接受的..."
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintLeft_toLeftOf="@+id/tvTitle"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

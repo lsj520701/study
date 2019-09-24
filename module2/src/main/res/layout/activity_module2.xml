@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Module2Act">
+
+    <TextView
+        android:gravity="center"
+        android:text="这是module2的启动页面"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

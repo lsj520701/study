@@ -1,0 +1,1 @@
+include ':app', ':module1', ':module2', ':standalone:module1project', ':standalone:module2project'

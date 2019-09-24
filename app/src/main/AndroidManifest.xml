@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.alex.study"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:appComponentFactory="whateverString"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light.NoActionBar"
+        tools:replace="android:appComponentFactory">
+        <activity android:name=".mvvm.MvvmAct">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".rxjavatest.ActRxjava">
+
+            <!--
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            -->
+        </activity>
+        <activity android:name=".compents.TwoArouter">
+        </activity>
+        <activity android:name=".compents.RouterOneAct">
+        </activity>
+        <activity android:name=".compents.ARouterAct">
+ <!--           <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>-->
+        </activity>
+        <activity android:name=".gdao.ActGreenDao">
+
+            <!--
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            -->
+        </activity>
+        <activity android:name=".acts.ActThree">
+        </activity>
+        <activity android:name=".acts.ActTwo">
+        </activity>
+        <activity android:name=".acts.ActOne">
+
+            <!--
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            -->
+        </activity>
+        <activity android:name=".views.FfaAct">
+
+            <!--
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            -->
+        </activity>
+        <activity android:name=".aminmators.AnimAct">
+
+            <!--
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            -->
+        </activity>
+        <activity android:name=".ActRecyclerView.ActRecycler">
+        </activity>
+        <activity android:name=".wanandroid.WanAct">
+
+            <!--
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            -->
+        </activity>
+        <activity android:name=".aidltest.AiAct">
+        </activity>
+        <activity android:name=".aidltest.AidlAct">
+
+            <!--
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            -->
+        </activity>
+        <activity android:name=".aidl.GpsAct">
+        </activity>
+        <!--
+    <activity android:name=".ImageStudy.GlideAct">
+        </activity>
+        -->
+        <activity android:name=".constainlayouts.ConstainAct">
+        </activity>
+        <activity android:name=".snaphelerptest.SnapHelperAct">
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".day19.LoadAnimAct">
+        </activity>
+
+        <service android:name=".aidltest.AIDLService"/>
+    </application>
+
+</manifest>
